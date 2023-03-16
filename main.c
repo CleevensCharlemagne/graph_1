@@ -25,6 +25,14 @@ struct Edge {
 // Function to create an adjacency list from specified edges
 struct Graph* createGraph(struct Edge edges[], int n)
 {
+    // allocate storage for the graph data structure
+    struct Graph* graph = (struct Graph*)malloc(sizeof(struct Graph));
+
+    // initialize head pointer for all vertices
+    for (int i = 0; i < N; i++) {
+        graph->head[i] = NULL;
+    }
+
 
 }
 
