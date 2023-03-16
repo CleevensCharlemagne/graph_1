@@ -17,4 +17,8 @@ struct Node
     int dest;
     struct Node* next;
 };
+// Data structure to store a graph edge
+struct Edge {
+    int src, dest;
+};
 
