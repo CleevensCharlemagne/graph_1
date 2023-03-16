@@ -54,3 +54,9 @@ struct Graph* createGraph(struct Edge edges[], int n)
     return graph;
 }
 
+// Function to print adjacency list representation of a graph
+void printGraph(struct Graph* graph)
+{
+
+}
+
