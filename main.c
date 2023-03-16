@@ -33,6 +33,12 @@ struct Graph* createGraph(struct Edge edges[], int n)
         graph->head[i] = NULL;
     }
 
+    // add edges to the directed graph one by one
+    for (int i = 0; i < n; i++)
+    {
 
+    }
+
+    return graph;
 }
 
