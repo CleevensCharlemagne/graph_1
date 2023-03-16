@@ -11,3 +11,10 @@ struct Graph
     struct Node* head[N];
 };
 
+// Data structure to store adjacency list nodes of the graph
+struct Node
+{
+    int dest;
+    struct Node* next;
+};
+
