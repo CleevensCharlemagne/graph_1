@@ -22,3 +22,9 @@ struct Edge {
     int src, dest;
 };
 
+// Function to create an adjacency list from specified edges
+struct Graph* createGraph(struct Edge edges[], int n)
+{
+
+}
+
